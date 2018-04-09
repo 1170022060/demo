@@ -92,4 +92,9 @@ public class hello {
 		bm.setMsgType("json");
 		return bm;
 	}
+	
+	@GetMapping("/name")
+	public String getName() {
+		return "张三";
+	}
 }
